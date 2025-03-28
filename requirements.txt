@@ -1,0 +1,9 @@
+flask
+flask-cors
+langchain
+wikipedia
+llama-cpp-python
+requests
+python-dotenv
+wikipedia-api
+langchain_community
