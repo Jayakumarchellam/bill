@@ -129,3 +129,5 @@ def chat():
     except Exception as e:
         print(f"Error: {str(e)}")
         return jsonify({"response": f"I encountered an error processing your request. Please try again."})
+
+app.run(debug=True, host="0.0.0.0", port=5000)
